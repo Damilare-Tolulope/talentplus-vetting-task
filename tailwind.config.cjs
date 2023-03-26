@@ -10,6 +10,9 @@ module.exports = {
         dark: "#000F24",
         bg: "#F8F9FC",
       },
+      maxWidth: {
+        full: "1440px"
+      }
     },
   },
   plugins: [],
