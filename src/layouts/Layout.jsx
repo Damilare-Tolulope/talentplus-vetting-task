@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-        <div className='py-20'>
+        <div className=''>
           {children}
         </div>
       <Footer />

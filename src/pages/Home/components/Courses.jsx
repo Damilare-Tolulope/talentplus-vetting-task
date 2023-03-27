@@ -48,7 +48,7 @@ const Courses = () => {
 
 const styles = {
     section: "bg-bg",
-    maxWidth: "px-5 md:px-10 lg:px-20",
+    maxWidth: "px-5 md:px-10 lg:px-20 py-10 md:py-20",
     courses:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10",
     tabs: "overflow-x-scroll md:w-2/3  pl-20 hide-scrollbar md:text-sm text-xs flex mx-auto items-center justify-center md:gap-10 gap-2 mt-10 mb-5 font-bold",
     tab: "py-2 px-4 w-full text-center cursor-pointer text-light",
