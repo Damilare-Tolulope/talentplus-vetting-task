@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Heading from '../../../components/Heading'
 import CourseCard from '../../../components/CourseCard'
-import AllCategories from './subs/AllCategories';
 import { courses } from '../../../data/courses';
 import { tabs } from '../../../utils/helper';
 
@@ -39,7 +38,7 @@ const Courses = () => {
 
             <div className={styles.courses}>
                 {
-                    filteredCourses.map(course => <CourseCard course={course} />)
+                    filteredCourses.map(course => <CourseCard key={course.title} course={course} />)
                 }
             </div>
         </div>

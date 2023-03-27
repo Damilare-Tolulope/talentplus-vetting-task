@@ -13,7 +13,7 @@ const Testimonial = () => {
             />
             <div className={styles.testimonials}>
                 {
-                    testimonials.map((testimonial) => <TestimonialCard key={testimonial} testimonial={testimonial}/>)
+                    testimonials.map((testimonial, index) => <TestimonialCard key={index} testimonial={testimonial}/>)
                 }
             </div>
         </div>

@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className={styles.socials}>
                     {
                         footerLinks.social.map(({label, link, name}) => (
-                            <Link to={link} className={styles.social}><img src={label} alt={name} /></Link>
+                            <Link key={label} to={link} className={styles.social}><img src={label} alt={name} /></Link>
                         ))
                     }
                 </div>
