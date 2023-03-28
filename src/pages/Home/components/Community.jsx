@@ -25,7 +25,7 @@ const styles = {
     img: 'my-5 mx-auto md:w-1/2 w-full',
     textContainer: 'w-full lg:w-1/2 md:w-2/3 mx-auto',
     head: 'uppercase text-xs',
-    title: 'font-bold my-2 md:text-4xl text-2xl',
+    title: 'font-clash font-bold my-2 md:text-4xl text-2xl',
     desc: 'capitalize text-xs md:text-sm',
 }
 

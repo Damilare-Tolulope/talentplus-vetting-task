@@ -72,7 +72,7 @@ const styles = {
     link: 'cursor-pointer text-white/50 hover:text-white',
     btn: 'py-3 px-12 lg:block hidden',
     mLinkContainer:
-      'rounded transition linear duration-[0.3s] drop-shadow-lg fixed top-30 left-0 bg-secondary z-20 p-5 w-full',
+      'rounded transition linear duration-[0.3s] drop-shadow-lg fixed top-20 left-0 bg-secondary z-20 p-5 w-full',
     mLinks: 'flex flex-col gap-6 text-center',
     mLink: 'cursor-pointer py-2 px-3 transition linear duration-[0.3s] hover:transition',
     activeLink: 'text-white font-medium'

@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '../../../components/Button'
-import Heading from '../../../components/Heading'
 
 import setting from '../../../assets/icons/setting.png'
 import autoplay from '../../../assets/icons/autoplay.png'
@@ -88,7 +87,7 @@ const About = () => {
 const styles = {
     container: "bg-bg py-20 px-5 md:px-10 lg:px-20",
     section: "max-w-full mx-auto w-full",
-    heading: "lg:text-5xl md:text-3xl text-2xl font-extrabold text-center lg:text-left",
+    heading: "font-clash lg:text-5xl md:text-3xl text-2xl font-extrabold text-center lg:text-left",
     desc: "text-light text-xs md:text-sm mt-5 mb-10 capitalize text-center lg:text-left",
     btn: "mx-auto md:mx-0 text-center lg:text-left",
     classes: "flex items-center mt-5 gap-5",

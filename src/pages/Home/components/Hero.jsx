@@ -62,7 +62,7 @@ const styles = {
   container: "bg-primary lg:py-32 md:py-16 pt-28 md:h-screen relative",
   section: "px-5 md:px-10 lg:px-20",
   leftSection: "text-white text-center md:text-left md:w-1/2 w-full md:mt-20 my-10 relative",
-  heading: "lg:text-5xl md:text-3xl text-2xl font-extrabold",
+  heading: "font-clash lg:text-5xl md:text-3xl text-2xl font-extrabold",
   desc: "text-xs md:text-sm mt-5 mb-10 capitalize w-full md:w-3/4",
   btns: "flex md:gap-5 gap-2 flex-col md:flex-row",
   btn: "flex items-center justify-center md:justify-start gap-5 sm:px-5",
