@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './components/About'
 import Community from './components/Community'
 import Courses from './components/Courses'
 import FAQ from './components/FAQ'
@@ -9,6 +10,7 @@ const index = () => {
   return (
     <div>
       <Hero />
+      <About />
       <Courses />
       <Testimonial />
       <Community />
