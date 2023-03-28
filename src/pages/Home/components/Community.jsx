@@ -23,7 +23,7 @@ const styles = {
     section: 'bg-primary',
     maxWidth: 'text-center text-white max-w-full mx-auto w-full py-16 md:py-20 px-5',
     img: 'my-5 mx-auto md:w-1/2 w-full',
-    textContainer: 'w-full md:w-1/2 mx-auto',
+    textContainer: 'w-full lg:w-1/2 md:w-2/3 mx-auto',
     head: 'uppercase text-xs',
     title: 'font-bold my-2 md:text-4xl text-2xl',
     desc: 'capitalize text-xs md:text-sm',

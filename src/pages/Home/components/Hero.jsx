@@ -50,31 +50,31 @@ const Hero = () => {
       <div className={styles.partners}>
         <img className={styles.partner} src={zoom} alt="zoom" />
         <img className={styles.partner} src={stripe} alt="stripe" />
-        <img className={`${styles.partner} md:w-40 w-28`} src={monday} alt="monday" />
+        <img className={`${styles.partner} lg:w-40 w-28`} src={monday} alt="monday" />
         <img className={`${styles.partner} w-28`} src={slack} alt="slack" />
-        <img className={`${styles.partner} md:w-32 w-28`} src={dropbox} alt="dropbox" />
+        <img className={`${styles.partner} lg:w-32 w-28`} src={dropbox} alt="dropbox" />
       </div>
     </div>
   )
 }
 
 const styles = {
-  container: "bg-primary md:py-32 pt-28 md:h-screen relative",
+  container: "bg-primary lg:py-32 md:py-16 pt-28 md:h-screen relative",
   section: "px-5 md:px-10 lg:px-20",
   leftSection: "text-white text-center md:text-left md:w-1/2 w-full md:mt-20 my-10 relative",
-  heading: "lg:text-5xl md:text-3xl text-xl font-extrabold",
+  heading: "lg:text-5xl md:text-3xl text-2xl font-extrabold",
   desc: "text-xs md:text-sm mt-5 mb-10 capitalize w-full md:w-3/4",
   btns: "flex md:gap-5 gap-2 flex-col md:flex-row",
   btn: "flex items-center justify-center md:justify-start gap-5 sm:px-5",
-  img: "md:absolute md:w-4/12 bottom-0 md:right-40 mt-20 md:mt-0",
+  img: "md:absolute lg:w-4/12 md:w-5/12 bottom-0 lg:right-40 md:right-10 mt-20 md:mt-0",
   preview: "mt-5 flex gap-5 items-center justify-center md:justify-start",
   prev: "text-center font-light text-sm",
   num: "font-extrabold text-lg",
   imgGroup: "flex",
   imgItem: "w-10 h-10 md:w-auto md:h-auto",
   imgItems: "-ml-5 w-10 h-10 md:w-auto md:h-auto",
-  curve: "absolute w-1/5 md:top-1/2 rotate-[60deg] md:rotate-0 right-0",
-  partners: "md:flex grid grid-cols-2 place-items-center items-center justify-center md:gap-20 gap-10 gap-x-0 bg-primary/20 py-10",
+  curve: "absolute w-1/5 lg:top-1/2 md:top-1/3 rotate-[60deg] md:rotate-0 right-0",
+  partners: "md:flex grid grid-cols-2 place-items-center items-center justify-center lg:gap-20 md:gap-10 gap-10 gap-x-0 bg-primary/20 py-10",
   partner: "w-20 cursor-pointer hover:scale-110 transition duration-300"
 }
 
