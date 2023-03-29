@@ -14,7 +14,8 @@ module.exports = {
         full: "1440px"
       },
       fontFamily: {
-        clash: ["'Clash Display'", "sans-serif"]
+        clash: ["'Clash Display'", "sans-serif"],
+        satoshi: ["'Satoshi'", "sans-serif"]
       }
     },
   },

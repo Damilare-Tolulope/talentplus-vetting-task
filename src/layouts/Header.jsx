@@ -65,8 +65,8 @@ const Header = () => {
 
 const styles = {
     section:
-      'w-full filter backdrop-blur-lg transition-all duration-300 ease-in-out fixed z-[100] md:pt-5 md:pb-5 pt-4 pb-5 bg-secondary/50',
-    inner: 'max-w-full mx-auto flex justify-between items-center md:px-20 px-5',
+      'w-full filter backdrop-blur-lg transition-all duration-300 ease-in-out fixed z-[100] md:pt-5 md:pb-5 pt-4 pb-5 bg-primary/50',
+    inner: 'max-w-full mx-auto flex justify-between items-center md:px-20 px-5 font-satoshi',
     logo: 'pb-2 md:w-auto w-20',
     links: 'hidden w-50 lg:flex justify-between items-center lg:gap-5',
     link: 'cursor-pointer text-white/50 hover:text-white',

@@ -8,15 +8,18 @@ import speaker from '../../../assets/icons/speaker.png'
 import atm from '../../../assets/icons/atm.png'
 import cast from '../../../assets/icons/cast.png'
 import group from '../../../assets/icons/group.png'
+import crown from '../../../assets/icons/crown.svg'
 import schedule from '../../../assets/icons/schedule.png'
 import img from '../../../assets/images/img-2.png'
+import aboutImg from '../../../assets/images/about-img.svg'
 
 const About = () => {
   return (
     <div className={styles.container}>
         <div className={styles.section}>
-            <div>
-                <div>
+            <div className={styles.topSection}>
+                <div className={styles.top}>
+                    <img className={styles.crown} src={crown} alt="crown" />
                     <h1 className={styles.heading}>High quality video, audio & live classes</h1>
                     <p className={styles.desc}>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                     <div className={styles.btn}>
@@ -46,7 +49,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="" alt="" />
+                    <img className={styles.aboutImg} src={aboutImg} alt="watch classes" />
                 </div>
             </div>
 
@@ -87,8 +90,12 @@ const About = () => {
 const styles = {
     container: "bg-bg py-20 px-5 md:px-10 lg:px-20",
     section: "max-w-full mx-auto w-full",
+    topSection: "flex items-center justify-between flex-col md:flex-row gap-10 lg:gap-0",
+    aboutImg: "md:w-12/12 ",
+    top: "relative",
+    crown: "absolute md:-top-10 md:-left-10 -left-5 -top-5 w-10 md:w-auto",
     heading: "font-clash lg:text-5xl md:text-3xl text-2xl font-extrabold text-center lg:text-left",
-    desc: "text-light text-xs md:text-sm mt-5 mb-10 capitalize text-center lg:text-left",
+    desc: "text-light text-xs w-full lg:w-3/4 md:text-sm mt-2 mb-10 capitalize text-center lg:text-left",
     btn: "mx-auto md:mx-0 text-center lg:text-left",
     classes: "flex items-center mt-5 gap-5",
     class: "bg-white flex items-center gap-5 font-medium md:p-5 p-3 rounded text-xs md:text-sm",

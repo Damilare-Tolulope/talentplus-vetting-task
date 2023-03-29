@@ -19,7 +19,7 @@ const index = ({ testimonial }) => {
 
 const styles = {
     container: "bg-white rounded-3xl text-light md:py-10 p-7",
-    testimony: "text-xs md:w-96 w-80 leading-[20px]",
+    testimony: "text-xs leading-[20px] capitalize",
     user: "flex gap-2 items-center mt-5",
     img: "rounded-full",
     name: "font-bold text-black",

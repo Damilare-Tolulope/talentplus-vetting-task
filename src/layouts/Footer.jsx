@@ -77,11 +77,11 @@ const Footer = () => {
     };
     
     const styles = {
-      section: 'md:px-20 px-5 bg-secondary text-white text-xs pt-20 pb-10 w-full',
+      section: 'md:px-20 px-5 bg-secondary text-white text-xs pt-20 pb-10 w-full font-satoshi',
       maxWidth: 'max-w-full mx-auto w-full',
       gridContainer: 'grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10',
       firstCol: '',
-      desc: 'my-3 text-lg',
+      desc: 'my-3 md:text-lg text-sm md:w-full w-4/5',
       contact:
         'cursor-pointer flex hover:text-primary transition linear delay-2s w-[auto] hover:transition linear delay-2s',
       title: 'md:text-xl text-lg font-medium font-light border-b-1 capitalize mb-5',
@@ -89,7 +89,7 @@ const Footer = () => {
       thirdCol: '',
       btn: 'px-2 text-md rounded-none',
       inputContainer: 'w-full border border-primary rounded flex justify-between bg-[#2A2A2B]',
-      input: 'bg-[transparent]',
+      input: 'bg-[transparent] h-full',
       socials: 'mt-5 flex gap-5 items-center',
       social: 'transition duration-300 hover:scale-110 hover:duration-300',
     };

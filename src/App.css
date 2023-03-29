@@ -5,7 +5,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Satoshi', sans-serif;
+}
+
+button .splide__pagination__page .is-active {
+  background: #004DB3 !important;
 }
 
 a {
