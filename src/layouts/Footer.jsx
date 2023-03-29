@@ -87,7 +87,7 @@ const Footer = () => {
       title: 'md:text-xl text-lg font-medium font-light border-b-1 capitalize mb-5',
       link: 'mb-5 md:text-lg text-sm block font-light cursor-pointer hover:text-light transition linear delay-2s w-auto hover:transition linear delay-2s',
       thirdCol: '',
-      btn: 'px-2 text-md rounded-none',
+      btn: 'px-1 text-md rounded-none',
       inputContainer: 'w-full border border-primary rounded flex justify-between bg-[#2A2A2B]',
       input: 'bg-[transparent] h-full',
       socials: 'mt-5 flex gap-5 items-center',

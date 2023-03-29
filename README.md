@@ -1,6 +1,6 @@
 # Employee Dashboard frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It uses
+This project was bootstrapped with [vite-plugin-react-pages](https://github.com/vitejs/vite-plugin-react-pages). It uses
 
 - TailwindCSS for styling
 
@@ -26,6 +26,6 @@ This will start the development server and open the app in your default web brow
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [vite-plugin-react-pages](https://github.com/vitejs/vite-plugin-react-pages).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
